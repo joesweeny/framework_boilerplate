@@ -12,9 +12,10 @@ class ConfigFactory
     public static function create(): Config
     {
         return new Config([
-            'app' => [
-                'templates' => __DIR__ . '/../../templates/'
-            ],
+            // @todo Implement this if the app is used to present a User Interface
+//            'app' => [
+//                'templates' => __DIR__ . '/../../templates/'
+//            ],
 
             'database' => [
                 'default' => [
