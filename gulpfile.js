@@ -9,7 +9,7 @@ gulp.task('default', [
 ]);
 
 gulp.task('build-app-js', function () {
-    gulp.src('src/app/Application/Http/App/resources/js/app.js')
+    gulp.src('src/app/Application/Http/App/Resources/js/app.js')
         .pipe(gulpWebpack({
             output: {
                 filename: 'app.js'
@@ -32,7 +32,7 @@ gulp.task('build-app-js', function () {
 });
 
 gulp.task('build-app-css', function () {
-    return gulp.src('src/app/Application/Http/App/resources/sass/app.scss')
+    return gulp.src('src/app/Application/Http/App/Resources/sass/app.scss')
         .pipe(sass())
         .pipe(gulp.dest('src/public/css'));
 });
