@@ -1,9 +1,9 @@
 <?php
 
-namespace Project\Application\Http\Api\Routes;
+namespace Project\Application\Http\App\Routes;
 
 use FastRoute\RouteCollector;
-use Project\Application\Http\Api\Controllers\HomepageController;
+use Project\Application\Http\App\Controllers\HomepageController;
 use Project\Framework\Routing\RouteMapper;
 
 class RouteManager implements RouteMapper

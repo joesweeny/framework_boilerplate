@@ -1,6 +1,6 @@
 <?php
 
-namespace Project\Application\Http\Api\Controllers;
+namespace Project\Application\Http\App\Controllers;
 
 use Project\Framework\Buffer\OutputBuffer;
 use Psr\Http\Message\ResponseInterface;

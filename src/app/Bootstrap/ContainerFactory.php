@@ -6,7 +6,7 @@ use Chief\Busses\SynchronousCommandBus;
 use Chief\CommandBus;
 use Chief\Container;
 use Chief\Resolvers\NativeCommandHandlerResolver;
-use Project\Application\Http\Api\Routes\RouteManager;
+use Project\Application\Http\App\Routes\RouteManager;
 use Project\Framework\DateTime\Clock;
 use Project\Framework\DateTime\SystemClock;
 use Dflydev\FigCookies\SetCookie;
